@@ -1,21 +1,15 @@
 import pandas as pd
 import numpy as np
-import locale
 import plotly.express as px
 import plotly.graph_objects as go
-
-# Set the locale to Indian English
-locale.setlocale(locale.LC_ALL, 'en_IN')
 
 def revenue():
     df = pd.read_csv('data/raw/sales_enriched2.csv')
     # 2021
-    value = df[df['Year']==2021]['price'].sum()
-    x = locale.format_string("%.0f", value, grouping=True)
+    value1 = df[df['Year']==2021]['price'].sum()
     # 2022
-    value = df[df['Year']==2022]['price'].sum()
-    y = locale.format_string("%.0f", value, grouping=True)
-    return x, y
+    value2 = df[df['Year']==2022]['price'].sum()
+    return value1, value2
 
 def sales_line_chart():
     df = pd.read_csv('data/raw/sales_enriched2.csv')

@@ -22,8 +22,8 @@ def page_1():
     # Total Revenue
     a, b = graph.revenue()
     st.header("Total Revenue:")
-    st.write("**Year 2021 :** " + 'Rs.' + a)
-    st.write("**Year 2022 :** " + 'Rs.' + b)
+    st.write("**Year 2021 :** " + 'Rs.' + str(round(a)))
+    st.write("**Year 2022 :** " + 'Rs.' + str(round(b)))
     st.write("")
     st.write("")
 
