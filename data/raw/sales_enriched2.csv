@@ -1,4 +1,4 @@
-sale_date,product,flavour,customization,quantity_value,quantity_units,price,mode_of_payment,toppers,delivery,delivery_charges,latitude,longitude,product_raw,flavour_raw,year_,month_,day_,dow_,week_,quarter_
+sale_date,product,flavour,customization,quantity_value,quantity_units,price,mode_of_payment,toppers,delivery,delivery_charges,latitude,longitude,product_raw,flavour_raw,Year,month_,day_,dow_,week_,quarter_
 17-10-2022,,,,,,,,,,,,,,,2022,10,17,1,42,4
 01-07-2022,cake,mango,,500,gram,500,acc,,,,,,cake,mango,2022,7,1,5,26,3
 03-06-2021,cake,mango,,500,gram,450,acc,,no,,,,cake,mango,2021,6,3,4,22,2
