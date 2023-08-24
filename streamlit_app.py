@@ -14,7 +14,7 @@ def main():
 
 
 def page_1():
-    st.image("data/images/vanakam_thala.gif")
+    # st.image("data/images/vanakam_thala.gif")
     st.title("Sugar Fallin Sales Report for 2021 & 2022")
     st.write("")
     st.write("")
@@ -54,7 +54,7 @@ def page_1():
     fig = graph.product_wise_top_flavour_bar_chart(option2)
     st.plotly_chart(fig)
 
-    st.image("data/images/thank_you.gif")
+    # st.image("data/images/thank_you.gif")
 
 def page_2():
     st.title("Heat Map of Orders in Coimbatore")
