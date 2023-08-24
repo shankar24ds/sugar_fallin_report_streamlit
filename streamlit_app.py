@@ -11,8 +11,8 @@ def main():
         page_1()
     elif selected_page == "Orders Heat Map":
         page_2()
-
-
+#
+#
 def page_1():
     # st.image("data/images/vanakam_thala.gif")
     st.title("Sugar Fallin Sales Report for 2021 & 2022")
