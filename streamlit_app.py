@@ -4,7 +4,7 @@ from streamlit_modules import heatmap
 from streamlit_folium import st_folium
 
 def main():
-    page_options = ["Sugar Fallin Sales Report for 2021 & 2022", "Orders Heat Map"]
+    page_options = ["Sample of Sugar Fallin Sales Report for 2021 & 2022", "Orders Heat Map"]
     selected_page = st.sidebar.radio("Go to", page_options)
 
     if selected_page == "Sugar Fallin Sales Report for 2021 & 2022":
